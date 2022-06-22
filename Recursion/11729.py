@@ -1,7 +1,7 @@
 def hanoi(n,start,via,end):
     if n==1:
         print(start,end)
-        return 1
+        return
     else:
         hanoi(n-1,start,end,via)
         print(start,end)
