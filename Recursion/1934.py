@@ -4,7 +4,7 @@ input = sys.stdin.readline
 
 T=int(input())
 
-def gcd(a,b):
+def gcd(a,b): # O(logN)
     if b==0:
         return a
     c=a%b
